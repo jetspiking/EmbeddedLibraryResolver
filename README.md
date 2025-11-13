@@ -1,0 +1,2 @@
+# EmbeddedLibraryResolver
+Load embedded libraries
