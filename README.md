@@ -30,14 +30,6 @@ In your .csproj, mark your native binaries as embedded resources:
 
 The library file name is inferred from the end of the resource name.
 
-Example: from
-
-Assembly.runtimes.win-x64.native.mylib.dll
-
-the extracted file name will be
-
-mylib.dll
-
 ### 2. Load embedded libraries
 
 Call EmbeddedLibraryResolver.Manager.Load once, early in application startup, before any code that depends on those native libraries.
